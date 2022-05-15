@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@karkhanaio/ui-builder": "^0.0.3",
+    "native-base": "^3.4.5",
     "react": "^18.1.0"
   },
   "peerDependencies": {

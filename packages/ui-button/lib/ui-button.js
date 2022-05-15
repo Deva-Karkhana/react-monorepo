@@ -1,3 +1,10 @@
 import React from 'react';
-const Button = ({ children }) => <button>{children}</button>;
-export { Button };
+import {Button} from "native-base";
+
+const uiButton = ({ children }) => {
+    return (
+        <Button onPress={() => console.log("hello world")} variant="solid">{children}</Button>
+    )
+};
+
+export { uiButton };

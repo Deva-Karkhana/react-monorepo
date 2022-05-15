@@ -1,3 +1,3 @@
-import { Button } from '@karkhanaio/ui-button';
+import { uiButton } from '@karkhanaio/ui-button';
 import { Text } from '@karkhanaio/ui-text';
-export { Button, Text };
+export { uiButton, Text };
