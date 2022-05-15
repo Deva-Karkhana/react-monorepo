@@ -1,0 +1,12 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: '@karkhanaio/ui',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: '@karkhanaio/ui-button'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/deva/Desktop/Karkhana/Projects/react-monorepo
+3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@karkhanaio%2fui-button - Not found
+3 error     at /Users/deva/.nvm/versions/node/v16.13.0/lib/node_modules/lerna/node_modules/pacote/node_modules/npm-registry-fetch/check-response.js:95:15
