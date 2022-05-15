@@ -8,7 +8,7 @@ var Button = function Button(_ref) {
 
 var Text = function Text(_ref) {
   var children = _ref.children;
-  retuen( /*#__PURE__*/React.createElement(ChakraProvider, null, /*#__PURE__*/React.createElement("p", {
+  return /*#__PURE__*/React.createElement(ChakraProvider, null, /*#__PURE__*/React.createElement("p", {
     style: {
       color: 'red',
       fontSize: '20px'
@@ -16,7 +16,7 @@ var Text = function Text(_ref) {
   }, children), /*#__PURE__*/React.createElement(Input, {
     placeholder: "Basic usage",
     size: "md"
-  })));
+  }));
 };
 
 export { Button, Text };

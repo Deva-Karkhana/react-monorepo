@@ -11,7 +11,7 @@ var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 
 var Text = function Text(_ref) {
   var children = _ref.children;
-  retuen( /*#__PURE__*/React__default["default"].createElement(react.ChakraProvider, null, /*#__PURE__*/React__default["default"].createElement("p", {
+  return /*#__PURE__*/React__default["default"].createElement(react.ChakraProvider, null, /*#__PURE__*/React__default["default"].createElement("p", {
     style: {
       color: 'red',
       fontSize: '20px'
@@ -19,7 +19,7 @@ var Text = function Text(_ref) {
   }, children), /*#__PURE__*/React__default["default"].createElement(react.Input, {
     placeholder: "Basic usage",
     size: "md"
-  })));
+  }));
 };
 
 exports.Text = Text;
