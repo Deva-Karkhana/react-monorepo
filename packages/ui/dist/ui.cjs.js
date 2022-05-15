@@ -15,7 +15,9 @@ var Button = function Button(_ref) {
 
 var Text = function Text(_ref) {
   var children = _ref.children;
-  return /*#__PURE__*/React__default["default"].createElement("p", null, children);
+  return /*#__PURE__*/React__default["default"].createElement("p", {
+    style: "color: red"
+  }, children);
 };
 
 exports.Button = Button;
