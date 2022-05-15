@@ -11,12 +11,12 @@ var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 
 var uiButton = function uiButton(_ref) {
   var children = _ref.children;
-  return /*#__PURE__*/React__default["default"].createElement(nativeBase.Button, {
+  return /*#__PURE__*/React__default["default"].createElement(nativeBase.NativeBaseProvider, null, /*#__PURE__*/React__default["default"].createElement(nativeBase.Button, {
     onPress: function onPress() {
       return console.log("hello world");
     },
     variant: "solid"
-  }, children);
+  }, children));
 };
 
 var Text = function Text(_ref) {

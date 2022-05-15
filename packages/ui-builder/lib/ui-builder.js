@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+console.log('Woo')
 const rollup = require('rollup');
 const path = require('path');
 const resolve = require('@rollup/plugin-node-resolve').default;
@@ -15,7 +16,7 @@ const fileName = name.replace('@karkhanaio/', '');
 // see below for details on the options
 const inputOptions = {
   input: inputPath,
-  external: ['react'],
+  external: ['react','native-base'],
   plugins: [
     resolve(),
     babel({
