@@ -1,3 +1,3 @@
 import React from 'react';
-const Text = ({ children }) => <p style="color: red">{children}</p>;
+const Text = ({ children }) => <p>{children}</p>;
 export { Text };
