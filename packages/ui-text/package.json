@@ -29,5 +29,8 @@
   },
   "peerDependencies": {
     "react": "16.x"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.0.0"
   }
 }
