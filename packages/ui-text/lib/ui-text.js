@@ -5,7 +5,7 @@ const Text = ({ children }) => {
     return (
         <ChakraProvider>        
             <p style={{color: 'red',fontSize: '20px'}}>{children}</p>
-            <Input placeholder='Basic usage' size='md'/>
+            <Input placeholder='Basic input' size='md'/>
         </ChakraProvider>
     )
 };

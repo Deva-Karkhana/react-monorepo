@@ -14,7 +14,7 @@ var Text = function Text(_ref) {
       fontSize: '20px'
     }
   }, children), /*#__PURE__*/React.createElement(Input, {
-    placeholder: "Basic usage",
+    placeholder: "Basic input",
     size: "md"
   }));
 };

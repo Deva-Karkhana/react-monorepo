@@ -15,7 +15,7 @@ const fileName = name.replace('@karkhanaio/', '');
 // see below for details on the options
 const inputOptions = {
   input: inputPath,
-  external: ['react','@chakra-ui/react'],
+  external: ['react','@chakra-ui/react','@emotion/react','@emotion/styled','framer-motion'],
   plugins: [
     resolve(),
     babel({

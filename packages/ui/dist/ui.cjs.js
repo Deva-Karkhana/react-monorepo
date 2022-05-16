@@ -22,7 +22,7 @@ var Text = function Text(_ref) {
       fontSize: '20px'
     }
   }, children), /*#__PURE__*/React__default["default"].createElement(react.Input, {
-    placeholder: "Basic usage",
+    placeholder: "Basic input",
     size: "md"
   }));
 };
