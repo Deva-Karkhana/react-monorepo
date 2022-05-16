@@ -15,7 +15,7 @@ const fileName = name.replace('@karkhanaio/', '');
 // see below for details on the options
 const inputOptions = {
   input: inputPath,
-  external: ['react'],
+  external: ['react','native-base','react-native-safe-area-context','react-native-svg','react-native-web'],
   plugins: [
     resolve(),
     babel({
